@@ -1,0 +1,62 @@
+
+.Array.exploreHeading{
+    padding-top: 8%;
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  .topic {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .topic .subTopic {
+    width: 30%;
+    background-color: aliceblue;  
+    border: 0.2em solid black;
+    margin-top: 5em;
+    padding: 2em 0em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: 0.3s;
+  }
+  .topic .subTopic .heading {
+    width: 50%;
+  }
+  .topic .subTopic .heading strong {
+    font-size: 2rem;
+    margin-left: 1em;
+  }
+  .topic .subTopic .btn {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .topic .subTopic .btn button {
+    font-size: 2rem;
+    background-color: black;
+    color: transparent;
+    text-shadow: 0em 0em 0em white;
+    cursor: pointer;
+  }
+  .topic .subTopic .data {
+    background-color: black;
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .topic .subTopic .data p {
+    color: aliceblue;
+  }
+  .topic .subTopic:hover {
+    transition: 0.3s;
+    box-shadow: 2em 2em 2em black;
+  }

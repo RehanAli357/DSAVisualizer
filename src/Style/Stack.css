@@ -1,0 +1,11 @@
+.input label{
+    font-size: 2rem;
+}
+.input input{
+    font-size: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1em solid black;
+    outline: none;
+}

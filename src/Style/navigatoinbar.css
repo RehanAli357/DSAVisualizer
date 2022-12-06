@@ -1,0 +1,77 @@
+* {
+    font-size: 62.5%;
+    margin: 0em;
+    padding: 0em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+  nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    padding:0em;
+    z-index: 1;
+  }
+  nav .Logo img {
+    width: 150em;
+    cursor: pointer;
+  
+  }
+
+  nav .Home p {
+    cursor: pointer;
+    padding: 0.2em 1em;
+    border: none;
+    color: aliceblue;
+  }
+  nav .Home p:hover {
+   color: crimson; 
+  }
+  nav .Dsa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  nav .Dsa ul {
+    background-color: black;
+    padding: 10em;
+    position: absolute;
+    top: 70.4%;
+  }
+
+  nav .Dsa ul li {
+    color: crimson;
+    font-size: 2rem;
+    padding: 1em 1em;
+    cursor: pointer;
+    border-bottom: 0.1em solid white;
+  }
+  nav .Dsa p {
+    cursor: pointer;
+    padding: 0.2em 1em;
+    border: none;
+  }
+  nav .Dsa p:hover {
+    color: crimson;
+  }
+  nav .Dsa span {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  nav .Developer p {
+    cursor: pointer;
+    padding: 0.2em 1em;
+    border: none;
+  }
+  nav .Developer p:hover {
+    color: crimson;
+  }

@@ -1,0 +1,28 @@
+ .dis{
+    margin-top: 3%;
+    background-color: black;
+    padding: 2% 3%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.hiddenButton{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchScreeen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input2{
+    margin-top: 2%;
+    width: 100%;
+    padding:0em 9em;
+}

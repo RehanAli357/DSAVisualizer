@@ -1,0 +1,133 @@
+
+.ArrayComp .Heading {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ArrayComp .Heading h1 {
+  font-size: 5rem;
+  color: darkorchid;
+  text-shadow: 0.09em 0em black;
+}
+.ArrayComp .Content {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ArrayComp .Content p {
+  width: 80%;
+  text-align: center;
+  font-size: 3rem;
+  background-color: aliceblue;
+  font-weight: bold;
+  padding: 1em;
+  border: 0.5em solid black;
+  border-radius: 1em;
+}
+.ArrayComp .Syntax {
+    padding:3% 0;
+  margin-top: 1%;
+  width: 80%;
+  border-radius:20em;
+  border: 10em solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ArrayComp .Syntax strong {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+.ArrayComp .Syntax .userInput {
+  width: 100%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ArrayComp .Syntax .userInput .inputArea {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ArrayComp .Syntax .userInput .inputArea label {
+  font-size: 2rem;
+}
+.ArrayComp .Syntax .userInput .inputArea input {
+  font-size: 2rem;
+  padding: 0.1em 1em;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.1em solid black;
+}
+.ArrayComp .Syntax .userInput h1 {
+  font-size: 4rem;
+  margin-top: 1em;
+}
+.ArrayComp .Syntax .CodeArea {
+  width: 100%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ArrayComp .Syntax .CodeArea .code {
+  width: 30%;
+  border-radius: 10em;
+  box-shadow: 0em 0em 10em black;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ArrayComp .Syntax .CodeArea .code p {
+  background-color: black;
+  color: wheat;
+  padding: 1em;
+  margin: 1em 0em;
+}
+
+.ArrayComp .DisplayScreen .heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ArrayComp .DisplayScreen .heading h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+.ArrayComp .DisplayScreen .OP {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ArrayComp .DisplayScreen .OP .box {
+  width: fit-content;
+  padding: 1em;
+  border-radius: 10em;
+  border: 5em solid crimson;
+  margin-left: 3em;
+}
+
+.ArrayComp .DisplayScreen .OP .Index {
+  margin: 1% 0.7%;
+}

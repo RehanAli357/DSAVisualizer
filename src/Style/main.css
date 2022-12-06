@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.Common {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Heading {
+    margin: 1em 0em;
+    width: 100%;
+    margin: 3% 0em;
+    padding: 15em 0em;
+    background-color: aliceblue;
+}
+
+.Para {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 80%;
+}
+
+.Syntax {
+    margin: 4% 0em;
+    background-color: aliceblue;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.input {
+    width: 50%;
+    border-radius: 10em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    margin-left: 1em;
+    font-size: 1.9rem;
+    padding: 0.1em 1em;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.function {
+    width: 50%;
+}
+
+.Discription {
+    margin-top: 3%;
+    background-color: black;
+    padding: 2% 3%;
+    color: aliceblue;
+    word-spacing: 100em;
+}
+
+.DisplayScreen {
+    overflow: hidden;
+    margin: 1% 0%;
+    width: 80%;
+    border-radius: 10em;
+    box-shadow: 1em 1em 10em black;
+    background-color: aliceblue;
+    flex-direction: column;
+}
+
+span {
+    margin: 0.5em 0em;
+    font-size: 2rem;
+}
+
+.Array {
+    padding-top: 5%;
+    background-image: url("../Images/wallpaper.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ArrayComp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box{
+    margin: 1% 5em;
+}
+.box p{
+    border: 0.1em solid black;
+    font-size: 2.5rem;
+    padding: 0.2em;
+}

@@ -1,0 +1,12 @@
+.dis{
+    word-spacing:normal;
+    width: 30%;
+    margin-top: -30em;
+}
+.com{
+    margin: 2% 0em;
+    background-color: aliceblue;
+    padding: 2%;
+    border: 7em solid black;
+    border-radius: 10em;
+}

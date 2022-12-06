@@ -1,0 +1,275 @@
+.HomeComp {
+  padding-top: 50em;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("../Images/wallpaper.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HomeComp .HomeOne {
+  margin: 3% 0%;
+  background-color: white;
+  border: 10em solid black;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10em;
+  box-shadow: 10em 10em 7em gray;
+}
+
+.HomeComp .HomeOne h1 {
+  margin-top: 1em;
+  font-size: 4rem;
+  color: black;
+  transition: 0.2s;
+}
+
+.HomeComp .HomeOne h1:hover {
+  text-shadow: 0.1em 0.1em 0em blue, -0.1em 0.1em 0em red;
+  transition: 0.2s;
+}
+
+.HomeComp .HomeOne strong {
+  color: rebeccapurple;
+  text-align: left;
+  text-decoration: dashed;
+}
+
+.HomeComp .HomeOne strong q {
+  font-size: 3rem;
+}
+
+.HomeOne p {
+  margin-top: 1.6em;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.HomeOne span {
+  padding: 1em;
+  margin: 1em 0em;
+  font-size: 2.5rem;
+  text-align: justify;
+  width: 80%;
+  border: 0.1em solid black;
+}
+
+.HomeOne b {
+  font-size: 5rem;
+}
+
+.HomeOne img {
+  margin-top: 8em;
+  width: 20%;
+  border: 10em solid black;
+  background-color: aliceblue;
+  border-radius: 100%;
+  box-shadow: 0em 0em 5em 6em gray;
+}
+
+.HomeComp .ExploreBtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.HomeComp .ExploreBtn button {
+  margin: 1em 0em;
+  font-size: 2.5rem;
+  padding: 0.1em 1em;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 10em;
+  color: black;
+  transition: 0.5s;
+}
+
+.HomeComp .ExploreBtn button:hover {
+  transition: 0.5s;
+  box-shadow: 10em 0em 3em black inset, 0.4em 0.4em 0.5em black;
+  color: aliceblue;
+  border-color: transparent;
+  border-radius: 10em;
+}
+
+.HomeTwo {
+  margin-bottom: 5%;
+}
+
+
+
+.HomeTwo .HomeTwo-One {
+  width: 40%;
+  background-color: aliceblue;
+  border: 10em solid black;
+  border-radius: 1em;
+  padding: 10em;
+}
+
+.HomeTwo-One p {
+  font-size: 2.5rem;
+  padding: 1.5em;
+  text-align: justify;
+  width: 90%;
+  font-weight: bold;
+}
+
+.HomeTwo .HomeTwo-Two {
+  width: 50%;
+}
+
+.HomeTwo-Two img {
+  width: 100%;
+}
+
+.HomeThree {
+  margin-bottom: 5%;
+}
+
+.HomeThree .card {
+  background-color: aliceblue;
+  border-radius: 10em;
+  padding: 10em;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5em solid black;
+  transition: 0.3s;
+  box-shadow: 10em 10em 0em gray;
+  margin: 1% 3%;
+}
+
+.card:hover {
+  transition: 0.3s;
+  box-shadow: 10em 10em 10em black;
+}
+
+.card .cardImg {
+  width: 100%;
+}
+
+.cardImg img {
+  width: 50%;
+  border-radius: 100%;
+  border: 20em solid black;
+}
+
+.cardData {
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.card .cardData q {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.AllCard {
+  display: flex;
+  width: 80%;
+  background-color: aliceblue;
+  padding: 1%;
+  border: 10em solid black;
+  border-radius: 30em;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Input{
+  padding: 4%;
+  border-radius:0em 100em;
+  border: 4em solid black;
+  box-shadow: 10em 10em 10em rgb(61, 61, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  margin: -2% 0% 3% 0%;
+}
+
+.Input h1{
+  margin-bottom: 1em;
+}
+
+.Input input{
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  background-color: aliceblue;
+  border-bottom: 0.1em solid black;
+}
+
+.Input label{
+  font-size: 2rem;
+}
+
+.Input textarea{
+  font-size: 2rem;
+  outline: none;
+  padding: 1em;
+}
+
+.Input button{
+  color: aliceblue;
+}
+
+
+/*--------------------------------------*/
+@media (max-width:768px) {
+  .HomeComp .HomeOne strong{
+    text-align: center;
+  }
+  .HomeComp .HomeOne p {
+    text-align: center;
+  }
+  .HomeTwo{
+    flex-direction: column;
+  }
+  .HomeTwo .HomeTwo-One{
+    width: 90%;
+  }
+  .HomeTwo .HomeTwo-Two{
+    display: none;
+  }
+}
+
+@media (max-width:426px) {
+  .HomeComp .HomeOne{
+    width: 99%;
+  }
+  .HomeComp .HomeOne h1{
+    font-size: 3rem;
+  }
+  .HomeComp .HomeOne strong{
+    font-size: 2.5rem;
+  }
+  .HomeComp .HomeOne img{
+    width: 50%;
+  }
+  .HomeComp .HomeOne p{
+    font-size: 2.5rem;
+  }
+  .HomeComp .HomeOne span{
+    width: 90%;
+    padding: 0.5em;
+  }
+
+  .HomeTwo .HomeTwo-One{
+    width: 90%;
+  }
+  .HomeTwo .HomeTwo-One p{
+    padding: 0em;
+    text-align: center;
+  }
+}
